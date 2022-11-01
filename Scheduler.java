@@ -2,7 +2,6 @@ import java.text.DecimalFormat; // to round utilization
 
 /*
  * Arda Erol
- * 201401013
  * 
  */
 
@@ -202,7 +201,7 @@ public class Scheduler {
 		int freeTime;                           // total free time of the core in a lifetime
 		boolean status;                         // true if core is sleeping, false if executing
 		job executing;                          // reference of job core assigned
-		JobList handledJobs = new JobList();   //jobs are located handledJobs after executed and finished successfully
+		JobList handledJobs = new JobList();    //jobs are located handledJobs after executed and finished successfully
 		
 		public core(int id) {
 			this.id = id;
