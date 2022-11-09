@@ -331,7 +331,7 @@ public class Scheduler {
 	 -----------------
 	 */
 	
-	private WaitList waitlist;    // jobs are wait in waitlist until execution time
+	private WaitList waitlist;    // jobs are waiting in waitlist until execution time
 	private PQueue highPQueue;    // cores take jobs from highPqueue immediately
 	private PQueue midPQueue;     // if cores are available after highPQueue, take jobs from midPqueue
 	private PQueue lowPQueue;     // if cores are available after midPQueue, take jobs from lowPqueue
